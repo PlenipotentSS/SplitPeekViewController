@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SSMasterViewController : UITableViewController
+typedef enum MenuState{
+    MenuCompletelyOpened,
+    MenuOpened,
+    MenuCompletelyHidden
+}MenuState;
 
+@interface SplitViewController : UIViewController
+
+@property (nonatomic) MenuState menuStateInView;
+
+@property (strong, nonatomic) UINavigationController *frontViewController;
+@property (strong, nonatomic) UINavigationController *backViewController;
+
+-(void)showMenuFullScreen;
+-(void)showMenuSplit;
+-(void)hideMenu;
 @end

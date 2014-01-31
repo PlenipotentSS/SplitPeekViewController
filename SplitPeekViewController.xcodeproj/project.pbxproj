@@ -14,14 +14,19 @@
 		D20CAA80189C490A00B0B981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D20CAA7F189C490A00B0B981 /* main.m */; };
 		D20CAA84189C490A00B0B981 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D20CAA83189C490A00B0B981 /* SSAppDelegate.m */; };
 		D20CAA87189C490A00B0B981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20CAA85189C490A00B0B981 /* Main.storyboard */; };
-		D20CAA8A189C490A00B0B981 /* SSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20CAA89189C490A00B0B981 /* SSMasterViewController.m */; };
-		D20CAA8D189C490A00B0B981 /* SSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20CAA8C189C490A00B0B981 /* SSDetailViewController.m */; };
+		D20CAA8A189C490A00B0B981 /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20CAA89189C490A00B0B981 /* SplitViewController.m */; };
+		D20CAA8D189C490A00B0B981 /* BackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20CAA8C189C490A00B0B981 /* BackViewController.m */; };
 		D20CAA8F189C490A00B0B981 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20CAA8E189C490A00B0B981 /* Images.xcassets */; };
 		D20CAA96189C490A00B0B981 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20CAA95189C490A00B0B981 /* XCTest.framework */; };
 		D20CAA97189C490A00B0B981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20CAA73189C490A00B0B981 /* Foundation.framework */; };
 		D20CAA98189C490A00B0B981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20CAA77189C490A00B0B981 /* UIKit.framework */; };
 		D20CAAA0189C490A00B0B981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D20CAA9E189C490A00B0B981 /* InfoPlist.strings */; };
 		D20CAAA2189C490A00B0B981 /* SplitPeekViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D20CAAA1189C490A00B0B981 /* SplitPeekViewControllerTests.m */; };
+		D20CAAAD189C4A1400B0B981 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20CAAAC189C4A1400B0B981 /* FrontViewController.m */; };
+		D20CAAB2189C4F0C00B0B981 /* menu-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = D20CAAAE189C4F0C00B0B981 /* menu-gear.png */; };
+		D20CAAB3189C4F0C00B0B981 /* menu-gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20CAAAF189C4F0C00B0B981 /* menu-gear@2x.png */; };
+		D20CAAB4189C4F0C00B0B981 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D20CAAB0189C4F0C00B0B981 /* menu.png */; };
+		D20CAAB5189C4F0C00B0B981 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20CAAB1189C4F0C00B0B981 /* menu@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +51,22 @@
 		D20CAA82189C490A00B0B981 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
 		D20CAA83189C490A00B0B981 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
 		D20CAA86189C490A00B0B981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D20CAA88189C490A00B0B981 /* SSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSMasterViewController.h; sourceTree = "<group>"; };
-		D20CAA89189C490A00B0B981 /* SSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSMasterViewController.m; sourceTree = "<group>"; };
-		D20CAA8B189C490A00B0B981 /* SSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSDetailViewController.h; sourceTree = "<group>"; };
-		D20CAA8C189C490A00B0B981 /* SSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSDetailViewController.m; sourceTree = "<group>"; };
+		D20CAA88189C490A00B0B981 /* SplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
+		D20CAA89189C490A00B0B981 /* SplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
+		D20CAA8B189C490A00B0B981 /* BackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackViewController.h; sourceTree = "<group>"; };
+		D20CAA8C189C490A00B0B981 /* BackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackViewController.m; sourceTree = "<group>"; };
 		D20CAA8E189C490A00B0B981 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D20CAA94189C490A00B0B981 /* SplitPeekViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitPeekViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20CAA95189C490A00B0B981 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D20CAA9D189C490A00B0B981 /* SplitPeekViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SplitPeekViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		D20CAA9F189C490A00B0B981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D20CAAA1189C490A00B0B981 /* SplitPeekViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitPeekViewControllerTests.m; sourceTree = "<group>"; };
+		D20CAAAB189C4A1400B0B981 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		D20CAAAC189C4A1400B0B981 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		D20CAAAE189C4F0C00B0B981 /* menu-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-gear.png"; sourceTree = "<group>"; };
+		D20CAAAF189C4F0C00B0B981 /* menu-gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-gear@2x.png"; sourceTree = "<group>"; };
+		D20CAAB0189C4F0C00B0B981 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		D20CAAB1189C4F0C00B0B981 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,11 +129,17 @@
 				D20CAA82189C490A00B0B981 /* SSAppDelegate.h */,
 				D20CAA83189C490A00B0B981 /* SSAppDelegate.m */,
 				D20CAA85189C490A00B0B981 /* Main.storyboard */,
-				D20CAA88189C490A00B0B981 /* SSMasterViewController.h */,
-				D20CAA89189C490A00B0B981 /* SSMasterViewController.m */,
-				D20CAA8B189C490A00B0B981 /* SSDetailViewController.h */,
-				D20CAA8C189C490A00B0B981 /* SSDetailViewController.m */,
+				D20CAA88189C490A00B0B981 /* SplitViewController.h */,
+				D20CAA89189C490A00B0B981 /* SplitViewController.m */,
+				D20CAA8B189C490A00B0B981 /* BackViewController.h */,
+				D20CAA8C189C490A00B0B981 /* BackViewController.m */,
+				D20CAAAB189C4A1400B0B981 /* FrontViewController.h */,
+				D20CAAAC189C4A1400B0B981 /* FrontViewController.m */,
 				D20CAA8E189C490A00B0B981 /* Images.xcassets */,
+				D20CAAAE189C4F0C00B0B981 /* menu-gear.png */,
+				D20CAAAF189C4F0C00B0B981 /* menu-gear@2x.png */,
+				D20CAAB0189C4F0C00B0B981 /* menu.png */,
+				D20CAAB1189C4F0C00B0B981 /* menu@2x.png */,
 				D20CAA7A189C490A00B0B981 /* Supporting Files */,
 			);
 			path = SplitPeekViewController;
@@ -235,7 +252,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D20CAA8F189C490A00B0B981 /* Images.xcassets in Resources */,
+				D20CAAB5189C4F0C00B0B981 /* menu@2x.png in Resources */,
+				D20CAAB2189C4F0C00B0B981 /* menu-gear.png in Resources */,
+				D20CAAB4189C4F0C00B0B981 /* menu.png in Resources */,
 				D20CAA7E189C490A00B0B981 /* InfoPlist.strings in Resources */,
+				D20CAAB3189C4F0C00B0B981 /* menu-gear@2x.png in Resources */,
 				D20CAA87189C490A00B0B981 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +278,9 @@
 			files = (
 				D20CAA84189C490A00B0B981 /* SSAppDelegate.m in Sources */,
 				D20CAA80189C490A00B0B981 /* main.m in Sources */,
-				D20CAA8A189C490A00B0B981 /* SSMasterViewController.m in Sources */,
-				D20CAA8D189C490A00B0B981 /* SSDetailViewController.m in Sources */,
+				D20CAA8A189C490A00B0B981 /* SplitViewController.m in Sources */,
+				D20CAA8D189C490A00B0B981 /* BackViewController.m in Sources */,
+				D20CAAAD189C4A1400B0B981 /* FrontViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,8 +7,11 @@
 //
 
 #import "FrontViewController.h"
+#import "SplitViewController.h"
 
 @interface FrontViewController ()
+
+@property (nonatomic) IBOutlet UIButton *menu_burger;
 
 @end
 
@@ -28,6 +31,16 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
+
+-(IBAction)menuButtonPushed:(id)sender {
+    SplitViewController *splitController = (SplitViewController*)self.parentViewController.parentViewController;
+    if (splitController.menuStateInView == MenuCompletelyHidden){
+        [splitController showMenuSplit];
+    } else {
+        [splitController hideMenu];
+    }
+}
+
 
 - (void)didReceiveMemoryWarning
 {

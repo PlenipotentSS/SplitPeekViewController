@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FrontViewController.h"
 
-@interface SSDetailViewController : UIViewController
+@interface BackViewController : UIViewController
 
 @property (strong, nonatomic) id detailItem;
+@property (nonatomic) FrontViewController *frontViewController;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

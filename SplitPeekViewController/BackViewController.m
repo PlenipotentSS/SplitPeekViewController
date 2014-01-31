@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Steven Stevenson. All rights reserved.
 //
 
-#import "SSDetailViewController.h"
+#import "BackViewController.h"
 
-@interface SSDetailViewController ()
+@interface BackViewController ()
 - (void)configureView;
 @end
 
-@implementation SSDetailViewController
+@implementation BackViewController
 
 #pragma mark - Managing the detail item
 
@@ -29,10 +29,6 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
-    }
 }
 
 - (void)viewDidLoad
