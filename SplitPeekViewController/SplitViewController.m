@@ -155,7 +155,7 @@
             if (menuTranslation > self.view.center.x) {
                 menuTranslation = self.view.center.x;
             }
-            //self.backViewController.view.center = CGPointMake(menuTranslation, self.frontViewController.view.center.y);
+            self.backViewController.view.center = CGPointMake(menuTranslation, self.frontViewController.view.center.y);
         }
     }
     if (pan.state == UIGestureRecognizerStateEnded) {
