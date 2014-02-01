@@ -489,6 +489,7 @@
 				D20CAAA7189C490A00B0B981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D20CAAA8189C490A00B0B981 /* Build configuration list for PBXNativeTarget "SplitPeekViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +498,7 @@
 				D20CAAAA189C490A00B0B981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

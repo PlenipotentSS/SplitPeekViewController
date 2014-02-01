@@ -29,13 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-    UIViewController *home_vc = [self.storyboard instantiateViewControllerWithIdentifier:@"home_vc"];
-    
-    [self.mainView setAlpha:0.f];
-    [self.mainView setup];
-    [self.mainView setCurrentView:home_vc.view];
-    [self.mainView setAlpha:1.f];
+
 }
 
 -(IBAction)menuButtonPushed:(id)sender {

@@ -30,7 +30,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     //setup navigation controller pointers
     [self setupSubNavControllers];
     
@@ -55,9 +54,9 @@
     [self addChildViewController:self.frontViewController];
     [self.frontViewController didMoveToParentViewController:self];
     
-    //FrontViewController *frontVC = (FrontViewController*)[[self.frontViewController viewControllers] firstObject];
-    //BackViewController *backVC = (BackViewController*)[[self.backViewController viewControllers] firstObject];
-    //[backVC setFrontViewController:frontVCVC];
+    FrontViewController *frontVC = (FrontViewController*)[[self.frontViewController viewControllers] firstObject];
+    BackViewController *backVC = (BackViewController*)[[self.backViewController viewControllers] firstObject];
+    [backVC setFrontViewController:frontVC];
     
     self.frontViewController.navigationController.navigationBar.hidden = NO;
     
