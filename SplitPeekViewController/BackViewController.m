@@ -7,8 +7,10 @@
 //
 
 #import "BackViewController.h"
+#import "UIColor+LocalSwingCalendar.h"
 
 @interface BackViewController ()
+
 - (void)configureView;
 @end
 
@@ -26,11 +28,6 @@
     }
 }
 
-- (void)configureView
-{
-    // Update the user interface for the detail item.
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -38,10 +35,22 @@
     [self configureView];
 }
 
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+#pragma mark - setup configurations
+- (void)configureView
+{
+    // Update the user interface for the detail item.
+    self.view.backgroundColor = [UIColor aquaScheme];
+    
+}
+
+
 
 @end

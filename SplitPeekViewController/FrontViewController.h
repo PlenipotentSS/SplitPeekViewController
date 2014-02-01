@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainView.h"
 
 @interface FrontViewController : UIViewController
 
 @property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) IBOutlet MainView *mainView;
 
 @end

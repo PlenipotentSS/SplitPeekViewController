@@ -30,6 +30,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    UIViewController *home_vc = [self.storyboard instantiateViewControllerWithIdentifier:@"home_vc"];
+    [self.mainView setup];
+    [self.mainView setCurrentView:home_vc.view];
 }
 
 -(IBAction)menuButtonPushed:(id)sender {

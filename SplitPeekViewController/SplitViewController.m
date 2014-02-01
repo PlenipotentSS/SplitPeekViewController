@@ -47,15 +47,16 @@
     [self.view addSubview:self.backViewController.view];
     [self addChildViewController:self.backViewController];
     [self.backViewController didMoveToParentViewController:self];
-    BackViewController *backVC = (BackViewController*)[[self.backViewController viewControllers] firstObject];
+    
+    self.view.backgroundColor = [(UIViewController*)[[self.backViewController viewControllers] firstObject] view].backgroundColor;
     
     self.frontViewController = (UINavigationController *)[self.storyboard instantiateViewControllerWithIdentifier:@"front"];
     [self.view addSubview:self.frontViewController.view];
     [self addChildViewController:self.frontViewController];
     [self.frontViewController didMoveToParentViewController:self];
     
-    FrontViewController *frontVC = (FrontViewController*)[[self.frontViewController viewControllers] firstObject];
-    
+    //FrontViewController *frontVC = (FrontViewController*)[[self.frontViewController viewControllers] firstObject];
+    //BackViewController *backVC = (BackViewController*)[[self.backViewController viewControllers] firstObject];
     //[backVC setFrontViewController:frontVCVC];
     
     self.frontViewController.navigationController.navigationBar.hidden = NO;
@@ -135,7 +136,6 @@
 
 #pragma mark - pan Gesture Actions
 -(void)slidePanel:(id) sender {
-    NSLog(@"slidePanel");
     UIPanGestureRecognizer *pan = (UIPanGestureRecognizer *)sender;
     
     //CGPoint velocity = [pan velocityInView:pan.view];
