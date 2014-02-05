@@ -11,5 +11,6 @@
 @interface FrontViewController : UIViewController
 
 @property (strong, nonatomic) id detailItem;
+@property (nonatomic) FrontViewController *rootSegueController;
 
 @end
